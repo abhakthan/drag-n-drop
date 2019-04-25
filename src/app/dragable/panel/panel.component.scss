@@ -1,0 +1,29 @@
+.card-1, .card-3 {
+  height: 150px;
+  width: 150px;
+  margin: 1px;
+  text-align: center;
+}
+
+.card-2 {
+  height: 150px;
+  width: 300px;
+  margin: 1px;
+  text-align: center;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+  margin: 5px;
+  cursor: move;
+}
+
+.over {
+    border: dotted;
+}
